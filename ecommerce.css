@@ -1,0 +1,313 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.nav-link{
+    display: flex;
+    display: inline;
+    column-gap: 20px;
+    padding-left: 10px;
+}
+.nav-link a{
+    text-decoration: none;
+    color: #1d232c;
+    border-bottom: 2px solid transparent;
+    transition: all .7s ease;
+}
+.nav-link a:hover{
+    border-bottom: 2px solid #1d232c;
+}
+.nav-menu{
+    display: none;
+    cursor: pointer;
+}
+.side-navbar{
+    background-color: #1d232c;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+.side-navbar a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar{
+    margin-bottom: 30px;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 50px;
+    text-transform: capitalize;
+}
+.header img{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+}
+.header-button{
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px;
+    background-color: #1d232c;
+    color: white;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.header-button:hover{
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+    transition: .2s;
+}
+.service{
+    padding: 20px;
+    text-transform: capitalize;
+}
+.service-container{
+    display: flex;
+    justify-content: space-between;
+}
+.service-container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+    margin-top: 40px;
+}
+.service-container2 div{
+    background-color: #dbdfe4;
+    border-radius: 5px;
+    padding: 15px;
+}
+.new-arrivel{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.news h2{
+    text-align: center;
+    margin-bottom: 8px;
+}
+.news p{
+    text-align: center;
+    margin-bottom: 6px;
+}
+.new-arrivel-container{
+    position: relative;
+    flex-basis: 20%;
+}
+.new-arrivel button{
+    padding: 4% 8% 4% 8%;
+    margin-top: 10px;
+    position: absolute;
+    color: #1d232c;
+    top: 50%;
+    left: 18%;
+    border-radius: 6px;
+    border: none;
+}
+.new-arrivel img{
+    border-radius: 10px;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-transform: capitalize;
+    margin-top: 20px;
+    position: relative;
+}
+.news input{
+    padding: 11px;
+    width: 80vw;
+    margin-bottom: 10px;
+    border: solid 1px black;
+}
+.news button{
+    display: inline;
+    margin-top: 60px;
+    position: absolute;
+    background-color: #1d232c;
+    color: white;
+}
+.news div button{
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    margin-left: 28%;
+}
+.news div button:hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: .2s;
+    cursor: pointer;
+}
+.footer{
+    margin-top: 80px;
+    padding: 40px;
+    background-color: #1d232c;
+    color: white;
+}
+.searching{
+    margin-top: 20px;
+}
+.product-search{
+    width: 80%;
+    border: solid black 2px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+}
+.product-search input{
+    border: none;
+    background-color: transparent;
+    width: 100%;
+}
+.product-search input:focus{
+    outline: none;
+}
+.products{
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.product-box{
+    text-align: center;
+    flex-basis: 20%;
+}
+.product-box img{
+    border-radius: 8px;
+}
+.contect-container{
+    margin-top: 4%;
+    margin-left: 15%;
+    background-color: #1d232c;
+    padding: 5%;
+    margin-right: 15%;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px;
+}
+.contect-container input{
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.submit{
+    color: black;
+    background-color: blue;
+    width: 90px;
+    font-weight: 800;
+    border-radius: 4px;
+    border: 1px solid #1d232c;
+    margin-top: 10px;
+    font-size: 15px;
+}
+.submit:hover{
+    border: 1px solid black;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.name{
+    width: 300px;
+    margin-top: 2px;
+    border: 1px solid #1d232c;
+}
+.email{
+    width: 300px;
+    margin-top: 2px;
+    border: 1px solid #1d232c;
+}
+.message{
+    width: 319px;
+    height: 110px;
+    margin-top: 2px;
+    border: 1px solid #1d232c;
+}
+.image{
+    position: absolute;
+    top: 35%;
+    margin-left: 55%;
+}
+
+
+
+
+
+
+
+
+
+ /* media query */
+
+@media screen and (max-width:700px){
+    .nav-menu{
+        display: block;
+    }
+    .nav-link{
+        display: none;
+    }
+    .header img{
+        display: none;
+    }
+    .service-container{
+        display: none;
+    }
+    .service-container2{
+        flex-direction: column;
+        margin-top: 5px;
+    }
+    .news{
+        padding: 30px;
+    }
+    .news h2{
+        margin-bottom: 0px;
+        font-size: 25px;
+    }
+    .news p{
+        margin-top: 10px;
+        font-size: 12px;
+        margin-bottom: 8px;
+    }
+    .news div button{
+        margin-left: 115px;
+    }
+    .footer p{
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+
+}
+@media screen and (max-width:900px){
+    .image{
+        display: none;
+    }
+}
+
