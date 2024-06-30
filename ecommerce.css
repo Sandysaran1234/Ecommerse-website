@@ -205,18 +205,18 @@ body{
     border-radius: 8px;
 }
 .contect-container{
-    margin-top: 4%;
+    margin-top: 6%;
     margin-left: 15%;
-    background-color: #1d232c;
-    padding: 5%;
-    margin-right: 15%;
-    color: white;
+    padding: 60px;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     border-radius: 10px;
+
+
 }
 .contect-container input{
     padding: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 .submit{
     color: black;
@@ -237,18 +237,18 @@ body{
 .name{
     width: 300px;
     margin-top: 2px;
-    border: 1px solid #1d232c;
+    border: 1px solid rgb(0, 0, 0);
 }
 .email{
     width: 300px;
     margin-top: 2px;
-    border: 1px solid #1d232c;
+    border: 1px solid black;
 }
 .message{
     width: 319px;
     height: 110px;
     margin-top: 2px;
-    border: 1px solid #1d232c;
+    border: 1px solid #000000;
 }
 .image{
     position: absolute;
@@ -296,18 +296,43 @@ body{
         margin-bottom: 8px;
     }
     .news div button{
-        margin-left: 115px;
+        margin-left: 70px;
+        top: 115px;
     }
     .footer p{
         font-size: 14px;
         margin-bottom: 10px;
         margin-top: 10px;
     }
+    .products{
+        margin-left: 50px;
+    }
 
 }
 @media screen and (max-width:900px){
     .image{
         display: none;
+    }
+}
+@media screen and (max-width:690px){
+    .news div button{
+        margin-left: 17%;
+    }
+    .contect-container{
+        width: 110%;
+    }
+    .contect-container{
+        width: 10%;
+        margin-left: 1px;
+    }
+    .contect-container input{
+        width: 270px;
+    }
+    .contect-container .message{
+        width: 290px;
+    }
+    .contect-container .submit{
+        width: 100px;
     }
 }
 
